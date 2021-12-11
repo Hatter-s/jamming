@@ -1,0 +1,37 @@
+{
+  "name": "jamming",
+  "version": "1.0.0",
+  "description": "allow user search the spotify library, create custom playlist, then save it to their spotify account",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "compiler-scss": "node-sass --watch src/resources/scss --output src/public/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hatter-s/jamming.git"
+  },
+  "keywords": [
+    "api",
+    "spotify",
+    "react",
+    "js"
+  ],
+  "author": "hatter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hatter-s/jamming/issues"
+  },
+  "homepage": "https://github.com/Hatter-s/jamming#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
